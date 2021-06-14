@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    background-color: rgba(29, 29, 29, 0.822);
+    flex-direction: column;
+    padding: 50px 0;
+}
+section h1{
+    color: #ffffffd3;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+section p{
+    color: #ffffffd3;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.texts p{
+    color: black;
+    text-align: left;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.texts p.replay{
+    text-align: right;
+    color: #ffffffcc;
+    background-color: #b57a7a;
+}
+
+form{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+form .btn_search{
+    background-color: #3ac798;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+form .btn_search:hover{
+    background-color: #33aa83;
+    box-shadow: 0px 0px 1px 1px #8ddbc363;
+}
+form .btn_search:focus,
+form input[type='text']:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+form #inputSearch{
+    background-color: #46be96c4;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+
+#inputSearch::placeholder{
+    color: white;
+}
