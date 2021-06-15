@@ -62,7 +62,7 @@ recognition.addEventListener('result', (e) => {
 })
 
 recognition.addEventListener('end', () => {
-    formSearch.submit();
+    // formSearch.submit();
     recognition.start();
 })
 recognition.start();
